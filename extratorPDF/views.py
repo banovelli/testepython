@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def extrair_tabela(request):
+    return render(request, 'extratorPDF/extrair_tabela.html', {})
